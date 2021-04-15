@@ -4,19 +4,29 @@
   box-sizing: border-box;
 }
 body {
-  overflow-x: hidden;
+  width: 100%;
 }
 .container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
 }
 
 .first-part {
-  height: 75%;
+  width: 100%;
+height: 90vh;
+
 }
+.normalBackground{
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background: url("./images/background-header.svg");
+  background-repeat: no-repeat;
+ 
+}
+
 .navbar-side {
   height: 126px;
-  width: 99vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
@@ -24,7 +34,7 @@ body {
   align-items: center;
   position: fixed;
 
-  z-index: 10;
+  z-index: 999999;
 }
 .navbar-second-side {
   display: flex;
@@ -91,6 +101,8 @@ input::placeholder {
 }
 .imageTextContent {
   display: flex;
+  position: absolute;
+ z-index: 9999;
 }
 .imageContent {
   width: 750px;
@@ -158,7 +170,6 @@ input::placeholder {
 }
 .second-part {
   height: 80%;
-  margin-top: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,7 +320,7 @@ input::placeholder {
 }
 .fourth-part {
   background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
-  height:60%;
+  height: 60%;
   margin-top: 400px;
   display: flex;
   flex-direction: column;
@@ -409,4 +420,54 @@ input::placeholder {
   outline: #ffffff;
   background-color: #ef2779;
   color: #ffffff;
+}
+.fifth-part {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-part .partners {
+  display: flex;
+  flex-direction: column;
+}
+.partners h2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+.partners h4{
+  padding-top: 17px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #374754;
+}
+.client{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 714px;
+
+flex-wrap: wrap;
+padding: 40px 0;
+
+}
+.client div{
+  width: 238px;
+}
+.client img{
+  width: 123px;
+  height: 122px;
 }
