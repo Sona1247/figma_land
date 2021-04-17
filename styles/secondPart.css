@@ -1,82 +1,82 @@
 .second-part {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 80%;
-    justify-content: center;
-    margin-top: 900px;
-  }
-  .header-side {
-    display: flex;
-    flex-direction: column;
-  }
-  .advice-side {
-    display: flex;
-    margin-top: 80px;
-  }
-  .header-side h2 {
-    color: var(--dark-textBackground-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.2px;
-    line-height: 57px;
-    padding: 10px;
-    text-align: center;
-  }
-  .header-side h3 {
-    color: var(--dark-textBackground-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.1px;
-    line-height: 33px;
-    text-align: center;
-  }
-  .header-side h4 {
-    color: var(--second-text-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    line-height: 20px;
-    text-align: center;
-  }
-  .second-advice {
-    margin: 0 52px;
-  }
-  .second-advice-part1,
-  .first-advice-part1,
-  .third-advice-part1 {
-    display: flex;
-  }
-  .second-advice-part1 div,
-  .first-advice-part1 div,
-  .third-advice-part1 div {
-    margin-right: 10px;
-  }
-  .second-advice-part1 h3,
-  .first-advice-part1 h3,
-  .third-advice-part1 h3 {
-    color: var(--dark-textBackground-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.1px;
-    line-height: 33px;
-  }
-  .second-advice-part2 pre,
-  .first-advice-part2 pre,
-  .third-advice-part2 pre {
-    color: var(--second-text-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.2px;
-    line-height: 27px;
-  }
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  margin-top: 56.25rem;
+}
+.header-side {
+  display: flex;
+  flex-direction: column;
+}
+.advice-side {
+  display: flex;
+  margin-top: 5rem;
+}
+.header-side h2 {
+  color: var(--dark-textBackground-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  line-height: 3.563rem;
+  padding: 0.625rem;
+  text-align: center;
+}
+.header-side h3 {
+  color: var(--dark-textBackground-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  line-height: 2.063rem;
+  text-align: center;
+}
+.header-side h4 {
+  color: var(--second-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  line-height: 1.25rem;
+  text-align: center;
+}
+.second-advice {
+  margin: 0 3.25rem;
+}
+.second-advice-part1,
+.first-advice-part1,
+.third-advice-part1 {
+  display: flex;
+}
+.second-advice-part1 div,
+.first-advice-part1 div,
+.third-advice-part1 div {
+  margin-right: 0.625rem;
+}
+.second-advice-part1 h3,
+.first-advice-part1 h3,
+.third-advice-part1 h3 {
+  color: var(--dark-textBackground-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  line-height: 2.063rem;
+}
+.second-advice-part2 pre,
+.first-advice-part2 pre,
+.third-advice-part2 pre {
+  color: var(--second-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  line-height: 1.688rem;
+}
