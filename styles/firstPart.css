@@ -1,0 +1,162 @@
+.first-part {
+    position: relative;
+    width: 100%;
+  }
+  
+  .front-bg {
+    left: 0;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+  }
+  
+  .back-bg {
+    left: 0;
+    object-fit: contain;
+    position: absolute;
+    top: 80px;
+    width: 100vw;
+    z-index: 1;
+  }
+  
+  .navbar-side {
+    align-items: center;
+    box-shadow: 5px 10px linear-gradient(39.97deg, var(--primary) 0.79%, var(--secondary) 79.29%);
+    display: flex;
+    height: 7.875rem;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+  }
+  .navbar-second-side {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .links {
+    margin-right: 44px;
+  }
+  .links a {
+    color: var(   --light-textBcakground-color);
+    cursor: pointer;
+    font-size: 15px;
+    margin: 21px;
+    text-decoration: none;
+  }
+  .navbar-second-side input {
+    border: none;
+    border-radius: 39px;
+    height: 54px;
+    outline: none;
+    width: 300px;
+  }
+  .navbar-second-side input::placeholder {
+    padding-left: 39px;
+  }
+  .navbar-second-side input,
+  .navbar-second-side input::placeholder {
+    color: #18171d;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.1px;
+    line-height: 16px;
+  }
+  .subscribeButton {
+    border: none;
+    border-radius: 35px;
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    height: 52px;
+    margin: 13px;
+    outline: none;
+    width: 125px;
+  }
+  .subscribeButton:hover {
+    background-color: var(--primary);
+    color: var(   --light-textBcakground-color);
+  }
+  .subscribeButton:active {
+    background-color: var(   --light-textBcakground-color);
+    box-shadow: none;
+    color: var(--primary);
+    outline: var(--primary);
+    transform: translateY(7px);
+  }
+  .logo {
+    height: 78px;
+    width: 206px;
+  }
+  
+  .imageTextContent {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+  }
+  .imageContent {
+    background: url(../images/screenPicture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 65%;
+  }
+  .textContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .textContent h1 {
+    color: var(   --light-textBcakground-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+    line-height: 60px;
+  }
+  .textContent h4 {
+    color: var(   --light-textBcakground-color);
+      font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+  .textContent .firstPart-button {
+    border: none;
+    border-radius: 35px;
+    color: var(--blueTone);
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    height: 65px;
+    letter-spacing: 0.1px;
+    line-height: 33px;
+    margin-top: 55px;
+    outline: none;
+    text-align: center;
+    width: 236px;
+  }
+  .firstPart-button:hover {
+    background-color: var(--blueTone);
+    color: var(   --light-textBcakground-color);
+  }
+  .firstPart-button:active {
+    background-color: var(   --light-textBcakground-color);
+    box-shadow: none;
+    color: var(--blueTone);
+    outline: var(--blueTone);
+    transform: translateY(7px);
+  }

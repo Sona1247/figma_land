@@ -1,0 +1,75 @@
+.sixth-part {
+    margin: 100px 0;
+  }
+  .text-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0;
+  }
+  .text-container h2 {
+    color: var(--dark-textBackground-color);
+      font-family: "Roboto", sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    line-height: 57px;
+    text-align: center;
+  }
+  .text-container h4 {
+    color: var(--second-text-color);
+      font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .image-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 80px 0;
+  }
+  .image-container h4 {
+    margin: 50px 0;
+  }
+  .dropbox-image {
+    height: 46px;
+    width: 229px;
+  }
+  .client-image {
+    height: 50px;
+    width: 152px;
+  }
+  .testimonials-button {
+    background: var(--blueTone);
+    border: none;
+    border-radius: 35px;
+    color: var(   --light-textBcakground-color);
+      font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    height: 65px;
+    letter-spacing: 0.1px;
+    line-height: 33px;
+    outline: none;
+    width: 280px;
+  }
+  .testimonials-button:hover {
+    background-color: var(   --light-textBcakground-color);
+    color: var(--blueTone);
+  }
+  
+  .testimonials-button:active {
+    background-color: var(--blueTone);
+    box-shadow: none;
+    color: var(   --light-textBcakground-color);
+    outline: var(   --light-textBcakground-color);
+    transform: translateY(7px);
+  }
