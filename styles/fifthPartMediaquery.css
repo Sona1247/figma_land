@@ -1,0 +1,44 @@
+@media only screen and (max-width: 500px) {
+  .fifth-part .partners h2 {
+    font-size: 2.175rem;
+    line-height: 3.163rem;
+  }
+  .fifth-part .partners h4 {
+      line-height:1rem;
+      font-size: 0.875rem;
+  }
+  .container .fifth-part button {
+    width: 12.85rem;
+    height: 3.875rem;
+    font-size: 1.175rem;
+    margin: 3rem 0;
+  }
+
+  .fifth-part .client div img {
+    width: 6.685rem;
+    height: 6.188rem;
+  }
+  .fifth-part .client div pre {
+    font-size: 0.995rem;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  body .container .fifth-part .client {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .container .fifth-part .client div:nth-child(4),
+  .container .fifth-part .client div:nth-child(5),
+  .container .fifth-part .client div:nth-child(6) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .container .fifth-part .client {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

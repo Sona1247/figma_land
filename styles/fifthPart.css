@@ -60,11 +60,12 @@
   text-align: center;
 }
 .client {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 50.88rem;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: repeat(2,1fr);
+  width: 80%;
+  row-gap: 52px;
+  margin-top: 90px;
 }
 .client div {
   align-items: center;
@@ -72,15 +73,13 @@
   flex-direction: column;
   height: 25rem;
   justify-content: space-evenly;
-  width: 15.63rem;
+  
 }
 .client img {
   height: 7.625rem;
   width: 7.688rem;
 }
-.client h5 {
-  margin: 5rem 0 0.9375rem 0;
-}
+
 .client pre {
   color: var(--second-text-color);
   font-family: "Roboto", sans-serif;

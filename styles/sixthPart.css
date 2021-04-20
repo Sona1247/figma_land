@@ -42,9 +42,35 @@
   height: 2.875rem;
   width: 14.31rem;
 }
-.client-image {
-  height: 3.125rem;
-  width: 9.5rem;
+.girl-designer{
+  display: none;
+}
+.ui-designer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui-designer-info {
+  padding-left: 0.9375rem;
+}
+.ui-designer-info h5 {
+  padding-bottom: 0.1875rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+.ui-designer-info a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9375rem;
+  line-height: 1.688rem;
+  letter-spacing: 0.2px;
+  color: #252b42;
 }
 .testimonials-button {
   background: var(--blueTone);

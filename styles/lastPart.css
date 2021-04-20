@@ -2,14 +2,12 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 0 10%;
   width: 100%;
 }
 .last-part-wrapper {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  padding: 7.5rem 0;
+justify-content: center;  padding: 7.5rem 0;
   width: 90%;
 }
 .pages-content {
@@ -41,9 +39,7 @@
   color: var(--primary);
   text-decoration: underline;
 }
-.footerIcon {
-  width: 40%;
-}
+
 .footerIcon .notification h5 {
   color: black !important;
 }

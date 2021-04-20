@@ -1,0 +1,196 @@
+@media only screen and (max-width: 590px) {
+  .container .first-part .front-bg-mobile{
+
+    top: 0;
+  }
+ .container .first-part .back-bg-mobile{
+ 
+    top: 40px;
+   
+  }
+  .first-part .imageTextContent .mobileImageContent{
+    background-size: cover;
+
+  }
+
+}
+
+
+
+@media only screen and (max-width: 860px) {
+.first-part .front-bg,
+.first-part .back-bg{
+  display: none;
+}
+.first-part .front-bg-mobile,
+.first-part .back-bg-mobile{
+  display: block;
+}
+.first-part .textContent h1,
+.first-part .textContent h4
+{
+  display: none;
+}
+.first-part .imageTextContent .textContent .firstPart-button{
+  color:#FFFFFF ;
+  background-color: var(--blueTone);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  width: 12.75rem;
+  height: 3.663rem;
+}
+  .imageTextContent .textContent .firstPart-button:hover{
+    color:var(--blueTone);
+    background-color:#FFFFFF;
+  }
+.first-part .secondTextContent{
+padding-top: 90px;
+display: block;
+}
+.first-part .secondTextContent h2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+
+}
+.first-part .secondTextContent h4{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+padding-top: 27px;
+}
+.first-part .imageTextContent{
+display: flex;
+flex-direction: column;
+}
+.first-part .textContent h2{
+  display: block;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+.first-part .front-bg-mobile{
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top:-164px;
+  width: 100vw;
+  z-index: 2;
+}
+.first-part .back-bg-mobile{
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: -100px;
+  width: 100vw;
+  z-index: 1;
+}
+.imageContent{
+  display: none;
+}
+.first-part .mobileImageContent{
+  display: block;
+  width: 80%;
+}
+.imageTextContent .textContent .firstPart-button{
+margin-top: 59px ;
+  width: 10.75rem;
+  height: 2.663rem;
+  font-size: 0.875rem;
+}
+}
+
+
+@media only screen and (max-width: 920px) {
+ 
+  .navbar-second-side.links {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-second-side {
+    position: absolute;
+    height: 100vh;
+    top: 120px;
+    width: 0;
+    transform: translateX(-1000px);
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+  }
+  .navbar-second-side.show {
+    width: 100%;
+    transform: translateX(0);
+  }
+  .hamburger-menu-button {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .navbar-side {
+    justify-content: space-between;
+  }
+  .navbar-side .navbar-second-side input {
+    width: 12.25rem;
+    height: 1.975rem;
+  }
+  .navbar-side .navbar-second-side input::placeholder{
+    font-size: 0.675rem;
+  }
+
+  .navbar-second-side .subscribeButton {
+    width: 4.813rem;
+    height: 2.15rem;
+    font-size: 0.675rem;
+  }
+  .navbar-second-side .links {
+margin-right: 0;
+  }
+  .navbar-side .logo{
+    width: 9.88rem;
+    height: 3.875rem;
+  }
+  .navbar-second-side .links a {
+    margin:13px ;
+    font-size: 0.7375rem;
+  }
+  .navbar-second-side .subscribeButton{
+    margin: 0.5125rem;
+  }
+.imageTextContent .imageContent{
+  height:34rem;
+}
+ 
+  .imageTextContent .textContent h1{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .imageTextContent .textContent h4{
+      font-size:12.5px;
+}
+.imageTextContent .textContent .firstPart-button{
+  margin-top: 10px;
+  width: 10.75rem;
+  height: 2.663rem;
+  font-size: 0.875rem;
+}
+
+
+}

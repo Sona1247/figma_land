@@ -19,3 +19,9 @@
     const longitude = position.coords.longitude;
     console.log(latitude, longitude);
   }
+  const hamburger =document.getElementById("hamburger-menu-button")
+  const navLinks =document.querySelector(".navbar-second-side")
+
+  hamburger.addEventListener("click", () =>{
+    navLinks.classList.toggle("show")
+  })

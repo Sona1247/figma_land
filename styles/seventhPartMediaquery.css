@@ -1,0 +1,23 @@
+@media only screen and (max-width: 500px){
+    .seventh-part .price-cards .little-price-card{
+        width: 15.94rem;
+       }
+       .seventh-part .pricing-content h2{
+           font-size: 2.150rem;
+       }
+       .seventh-part .pricing-content h4{
+        font-size: 0.892rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 860px){
+  .seventh-part .price-cards .little-price-card{
+      margin-left: 0;
+      margin-bottom: 50px;
+  }
+  .seventh-part .price-cards{
+    flex-direction: column;
+  }
+}

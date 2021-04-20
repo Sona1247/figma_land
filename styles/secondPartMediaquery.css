@@ -1,0 +1,66 @@
+@media only screen and (max-width:500px){
+    .first-advice .first-advice-part1 h3,
+    .second-advice .second-advice-part1 h3,
+    .third-advice .third-advice-part1 h3{
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0.1px;
+    }
+    .advice-side .first-advice-part2 pre,
+    .advice-side .second-advice-part2 pre,
+    .advice-side .third-advice-part2 pre{
+      font-size: 15px;
+      line-height: 25px;
+    }
+    body .container .second-part{
+        padding: 20px 0;
+    }
+    .second-part-wrapper .header-side h4{
+        font-size: 14px;
+    }
+    .second-part-wrapper .header-side h2{
+        font-size: 1.875rem;
+        padding: 0.525rem;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+  .container .second-part {
+    padding: 270px 0 0 0;
+    height: fit-content;
+  }
+  .second-part .advice-side {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+ .second-part .advice-side .mobileLogoPicture{
+display: block !important;
+  }
+  .advice-side .desktopLogoPicture{
+      display: none;
+  }
+}
+@media only screen and (max-width: 920px) {
+
+
+  .first-advice,
+  .second-advice,
+  .third-advice {
+    margin: 75px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-advice-part1,
+  .second-advice-part1,
+  .third-advice-part1 {
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width:1300px){
+.second-part .advice-side{
+    display: flex;
+    align-items: center;
+}
+}
