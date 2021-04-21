@@ -14,7 +14,7 @@
   height: 80%;
   justify-content: center;
   margin-top: 56.25rem;
-  padding-bottom: 90px;
+  padding-bottom: 5.625rem;
   width: 100%;
 }
 .second-part-wrapper {
@@ -254,6 +254,10 @@
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   width: 14.75rem;
+}
+.thirdPart-button:focus{
+  background-color:var(--blueButton-color);
+  color: var( --light-textBackground-color);
 }
 .thirdPart-button.visible {
   opacity: 1;
