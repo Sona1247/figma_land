@@ -4,26 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/firstPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/secondPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/thirdPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/fourthPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/fifthPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/sixthPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/seventhPartMediaquery.css">
-    <link rel="stylesheet" href="./styles/eighthPartMediaquery.css">
-<link rel="stylesheet" href="./styles/lastPartMediaquery.css">
+    <link rel="stylesheet" href="./mediaqueries/headerMediaquery.css">
+    <link rel="stylesheet" href="./mediaqueries/featuresMediaquery.css">
+    <link rel="stylesheet" href="./mediaqueries/partnersNewsMediaquery.css">
+    <link rel="stylesheet" href="./mediaqueries/testimonialsMediaquery.css">
+    <link rel="stylesheet" href="./mediaqueries/pricesMediaquery.css">
+    <link rel="stylesheet" href="./mediaqueries/footerMediaquery.css">
     <link rel="stylesheet" href="./styles/project.css" />
     <link rel="stylesheet" href="./styles/colors.css">
-    <link rel="stylesheet" href="./styles/firstPart.css">
-    <link rel="stylesheet" href="./styles/secondPart.css">
-    <link rel="stylesheet" href="./styles/thirdPart.css">
-    <link rel="stylesheet" href="./styles/fourthPart.css">
-    <link rel="stylesheet" href="./styles/fifthPart.css">
-    <link rel="stylesheet" href="./styles/sixthPart.css">
-    <link rel="stylesheet" href="./styles/seventhPart.css">
-    <link rel="stylesheet" href="./styles/eighthPart.css">
-    <link rel="stylesheet" href="./styles/lastPart.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/features.css">
+    <link rel="stylesheet" href="./styles/partnersNews.css">
+    <link rel="stylesheet" href="./styles/testimonials.css">
+    <link rel="stylesheet" href="./styles/prices.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -38,12 +32,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="first-part">
+      <div class="header" id="header">
         <img src="./images/Rectangle 9 mobile-version.png" class="front-bg-mobile" alt="">
         <img src="./images/Rectangle 8-mobile version.png" class="back-bg-mobile" alt="">
         <img src="./images/Rectangle 9.png" class="front-bg" />
         <img src="./images/Rectangle 8.png" class="back-bg" />
-
         <div class="navbar-side">
           <img src="./images/logo.png" alt="figma_land logo" class="logo" />
           <button class="hamburger-menu-button" id="hamburger-menu-button">
@@ -51,11 +44,11 @@
           </button>
           <div class="navbar-second-side">
             <div class="links" id="links">
-              <a href="#">Home</a>
-              <a href="#">Product</a>
-              <a href="#">Pricing</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
+              <a href="#first-part">Home</a>
+              <a href="#second-part-wrapper">Product</a>
+              <a href="#seventh-part">Pricing</a>
+              <a href="#last-part-wrapper">About</a>
+              <a href="#eighth-part">Contact</a>
               <input type="email" placeholder="Your Email" />
             <button type="submit" class="subscribeButton">Subscribe</button>
             </div>
@@ -85,10 +78,10 @@
             <button type="button" class="firstPart-button">Try For Free</button>
           </div>
         </div>
-      </div>
-
-      <div class="second-part">
-<div class="second-part-wrapper">
+     
+  </div>
+      <div class="features">
+<div class="second-part-wrapper" id="second-part-wrapper">
   <div class="header-side">
     <h3>At your fingertips</h3>
     <h2>Features</h2>
@@ -255,13 +248,13 @@ reach your financial goal. </pre
   </div>
 </div>
       </div>
-      <div class="third-part">
+      <div class="statistics">
         <div class="computer-side">
-          <h2>
+          <h2 class="computer-side-title">
             Lightning fast <br />
             prototyping
           </h2>
-          <h4>
+          <h4 class="computer-side-subtitle">
             Most calendars are designed for teams. <br />
             Slate is designed for freelancers
           </h4>
@@ -388,7 +381,7 @@ the month and year.</pre
           </button>
         </div>
       </div>
-      <div class="seventh-part">
+      <div class="seventh-part" id="seventh-part">
         <div class="pricing-content">
           <h2>Pricing</h2>
           <h4>
@@ -441,7 +434,7 @@ the month and year.</pre
           </div>
         </div>
       </div>
-      <div class="eighth-part">
+      <div class="eighth-part" id="eighth-part">
         <div class="eighth-part-wrapper">
           <div class="eighth-part-text-content">
             <h2>Contact Us</h2>
@@ -514,7 +507,7 @@ the month and year.</pre
         </div>
       </div>
       <div class="last-part">
-        <div class="last-part-wrapper">
+        <div class="last-part-wrapper" id="last-part-wrapper">
           <div class="pages-content">
             <h3>Pages</h3>
             <a href="">Eleanor Edwards</a>

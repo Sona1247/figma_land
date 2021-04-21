@@ -8,6 +8,9 @@
     .eighth-part .eighth-part-wrapper .eighth-part-text-content h4{
         font-size:0.72rem;
     }
+    .container .last-part .last-part-wrapper #map{
+        width: 87%;
+    }
 }
 
 
@@ -36,4 +39,16 @@
     .eighth-part-wrapper .eighth-part-text-content .eighth-part-mobileIcons img{
         padding-right: 1.5rem;
     }
+    .last-part .last-part-wrapper{
+        flex-direction: column;
+      }
+      .last-part .last-part-wrapper #map{
+        margin: 32px 0 55px 0;
+        width: 60%;
+    }
 }
+ @media only screen and (max-width:920px){
+    .last-part-wrapper .pages-content a{
+         font-size: 0.7575rem;
+     }
+    }

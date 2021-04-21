@@ -1,5 +1,30 @@
 @media only screen and (max-width: 500px) {
-  .fifth-part .partners h2 {
+   .fourth-part .action-side input{
+    height: 2.775rem;
+    width: 16.06rem;
+   }
+   .fourth-part .action-side input::placeholder{
+    font-size: 0.775rem;
+   }
+
+   .fourth-part .action-side button{
+    height: 2.725rem;
+    width: 16.06rem;
+    font-size: 0.975rem;
+   }
+   .fourth-part .content-side h3{
+       font-size: 1rem;
+   }
+   .fourth-part .content-side .content-side-mobileText {
+       font-size: 36px;
+   }
+   .fourth-part .action-side h3{
+       font-size: 1.125rem;
+   }
+   .fourth-part .action-side p{
+       font-size: 1rem;
+   }
+   .fifth-part .partners h2 {
     font-size: 2.175rem;
     line-height: 3.163rem;
   }
@@ -25,6 +50,20 @@
 }
 
 @media only screen and (max-width: 860px) {
+  .content-side .content-side-desktopText {
+    display: none;
+  }
+  .content-side .content-side-mobileText {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
   body .container .fifth-part .client {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -42,3 +81,4 @@
     grid-template-rows: repeat(2, 1fr);
   }
 }
+

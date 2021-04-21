@@ -1,0 +1,195 @@
+@media only screen and (max-width: 500px) {
+  .container .header .front-bg-mobile {
+    top: 0;
+  }
+  .container .header .back-bg-mobile {
+    top: 40px;
+  }
+  .container .header .imageTextContent .textContent .firstPart-button {
+    font-size: 19px;
+    width: 11.75rem;
+    height: 3.263rem;
+  }
+  .header .imageTextContent .mobileImageContent {
+    background-size: cover;
+  }
+  .header .navbar-side {
+    padding: 0 20px;
+  }
+  .container .header .secondTextContent h2 {
+    line-height: 44px;
+    font-size: 36px;
+  }
+  .container .header .secondTextContent h4 {
+    line-height: 19px;
+    font-size: 14.2px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .header .front-bg,
+  .header .back-bg {
+    display: none;
+  }
+  .header .front-bg-mobile,
+  .header .back-bg-mobile {
+    display: block;
+  }
+  .header .textContent h1,
+  .header .textContent h4 {
+    display: none;
+  }
+  .header .imageTextContent .textContent .firstPart-button {
+    color: #ffffff;
+    background-color: var(--blueTone);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    width: 12.75rem;
+    height: 3.663rem;
+  }
+  .imageTextContent .textContent .firstPart-button:hover {
+    color: var(--blueTone);
+    background-color: #ffffff;
+  }
+  .header .secondTextContent {
+    padding-top: 90px;
+    display: block;
+  }
+  .header .secondTextContent h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .header .secondTextContent h4 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-top: 27px;
+  }
+  .header .imageTextContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .textContent h2 {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .header .front-bg-mobile {
+    left: 0;
+    object-fit: contain;
+    position: absolute;
+    top: -164px;
+    width: 100vw;
+    z-index: 2;
+  }
+  .header .back-bg-mobile {
+    left: 0;
+    object-fit: contain;
+    position: absolute;
+    top: -100px;
+    width: 100vw;
+    z-index: 1;
+  }
+  .imageContent {
+    display: none;
+  }
+  .header .mobileImageContent {
+    display: block;
+    width: 80%;
+  }
+  .imageTextContent .textContent .firstPart-button {
+    margin-top: 59px;
+    width: 10.75rem;
+    height: 2.663rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .container .header .navbar-side .hamburger-menu-button {
+    display: block;
+  }
+  .navbar-side .navbar-second-side .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .navbar-side .navbar-second-side {
+    position: fixed;
+    height: 100vh;
+    top: 100px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    left: -100%;
+    background-color: var(--primary);
+  }
+  .header .navbar-side .navbar-second-side.show {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .navbar-side {
+    justify-content: space-between;
+  }
+  .navbar-side .navbar-second-side input {
+    width: 12.25rem;
+    height: 1.975rem;
+  }
+  .navbar-side .navbar-second-side input::placeholder {
+    font-size: 0.675rem;
+  }
+
+  .navbar-second-side .subscribeButton {
+    width: 4.813rem;
+    height: 2.15rem;
+    font-size: 0.675rem;
+  }
+  .navbar-second-side .links {
+    margin-right: 0;
+  }
+  .navbar-side .logo {
+    width: 9.88rem;
+    height: 3.875rem;
+  }
+  .navbar-second-side .links a {
+    margin: 13px;
+    font-size: 0.7375rem;
+  }
+  .imageTextContent .imageContent {
+    height: 34rem;
+  }
+
+  .imageTextContent .textContent h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .imageTextContent .textContent h4 {
+    font-size: 12.5px;
+  }
+  .imageTextContent .textContent .firstPart-button {
+    margin-top: 10px;
+    width: 10.75rem;
+    height: 2.663rem;
+    font-size: 0.875rem;
+  }
+}
