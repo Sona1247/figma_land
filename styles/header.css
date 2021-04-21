@@ -5,6 +5,10 @@
   position: relative;
   width: 100%;
 }
+.header-wrapper{
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
 .front-bg {
   left: 0;
@@ -199,12 +203,12 @@
   width: 100%;
   z-index: 9999;
 }
+
 .imageContent {
   background: url(../images/screenPicture.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50rem;
-  opacity: 0;
   -webkit-transform: translateX(-100px);
   -ms-transform: translateX(-100px);
   transform: translateX(-100px);

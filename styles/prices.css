@@ -15,8 +15,36 @@
   margin: 6.25rem 0;
   margin-bottom: 4.375rem;
 }
+.card1{
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease-in-out;
+}
+.card2{
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1.6s ease-in-out;
+}
+.card3{
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 2.1s ease-in-out;
+}
+.card1.visible,
+.card2.visible,
+.card3.visible{
+  opacity: 1;
+  transform: translateY(0px);
+}
 .pricing-content {
   margin: 6.25rem 0 5rem 0;
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 1s ease-in-out;
+}
+.pricing-content.visible{
+  opacity: 1;
+  transform: translateY(0px);
 }
 .pricing-content h2 {
   color: var(--second-text-color);
