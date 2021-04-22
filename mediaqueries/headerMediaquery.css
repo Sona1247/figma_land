@@ -210,9 +210,15 @@
 }
 @media only screen and (min-width: 1800px){
   .container .header .front-bg{
-    top: -450%;
+    top: -420%;
   }
   .container .header .back-bg{
-    top: -350%;
+    top: -310%;
+  }
+  .header .textContent h1{
+    color: black;
+  }
+  .header .textContent h4{
+    color: black;
   }
 }
