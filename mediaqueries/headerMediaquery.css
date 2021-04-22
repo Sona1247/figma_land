@@ -6,23 +6,23 @@
     top: 40px;
   }
   .container .header .imageTextContent .textContent .firstPart-button {
-    font-size: 19px;
-    width: 11.75rem;
+    font-size: 1.188rem;
     height: 3.263rem;
+    width: 11.75rem;
   }
   .header .imageTextContent .mobileImageContent {
     background-size: cover;
   }
   .header .navbar-side {
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
   .container .header .secondTextContent h2 {
-    line-height: 44px;
-    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
   }
   .container .header .secondTextContent h4 {
-    line-height: 19px;
-    font-size: 14.2px;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
   }
 }
 
@@ -40,67 +40,67 @@
     display: none;
   }
   .header .imageTextContent .textContent .firstPart-button {
-    color: #ffffff;
     background-color: var(--blueTone);
+    color: var(--light-textBackground-color);
     font-family: "Roboto", sans-serif;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 0.1px;
-    width: 12.75rem;
     height: 3.663rem;
+    letter-spacing: 0.1px;
+    line-height: 2.063rem;
+    width: 12.75rem;
   }
   .imageTextContent .textContent .firstPart-button:hover {
+    background-color: var(--light-textBackground-color);
     color: var(--blueTone);
-    background-color: #ffffff;
   }
   .header .secondTextContent {
-    padding-top: 90px;
     display: block;
     opacity: 0;
+    padding-top: 5.625rem;
     transform: translateX(100px);
     transition: all 1s ease-in-out;
   }
-  .header .secondTextContent.visible{
+  .header .secondTextContent.visible {
     opacity: 1;
     transform: translateX(0px);
   }
   .header .secondTextContent h2 {
+    color: var(--light-textBackground-color);
     font-family: "Roboto", sans-serif;
+    font-size: 46px;
     font-style: normal;
     font-weight: normal;
-    font-size: 46px;
+    letter-spacing: 0.2px;
     line-height: 57px;
     text-align: center;
-    letter-spacing: 0.2px;
-    color: #ffffff;
   }
   .header .secondTextContent h4 {
+    color: #ffffff;
     font-family: "Roboto", sans-serif;
+    font-size: 1rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
     letter-spacing: 0.2px;
-    color: #ffffff;
-    padding-top: 27px;
+    line-height: 1.25rem;
+    padding-top: 1.688rem;
+    text-align: center;
   }
   .header .imageTextContent {
     display: flex;
     flex-direction: column;
   }
   .header .textContent h2 {
+    color: var(--light-textBackground-color);
     display: block;
     font-family: "Roboto", sans-serif;
+    font-size: 2.875rem;
     font-style: normal;
     font-weight: normal;
-    font-size: 46px;
-    line-height: 57px;
-    text-align: center;
     letter-spacing: 0.2px;
-    color: #ffffff;
+    line-height: 3.563rem;
+    text-align: center;
   }
   .header .front-bg-mobile {
     left: 0;
@@ -123,41 +123,40 @@
   }
   .header .mobileImageContent {
     display: block;
-    width: 80%;
     opacity: 0;
     transform: translateX(-100px);
     transition: all 1s ease-in-out;
+    width: 80%;
   }
-  .header .mobileImageContent.visible{
+  .header .mobileImageContent.visible {
     opacity: 1;
     transform: translateX(0px);
-}
+  }
   .imageTextContent .textContent .firstPart-button {
-    margin-top: 59px;
-    width: 10.75rem;
-    height: 2.663rem;
     font-size: 0.875rem;
+    height: 2.663rem;
+    margin-top: 3.688rem;
+    width: 10.75rem;
   }
 }
 
 @media only screen and (max-width: 920px) {
   .container .header .navbar-side .hamburger-menu-button {
     display: block;
-  
   }
   .navbar-side .navbar-second-side .links {
     display: flex;
     flex-direction: column;
   }
   .header .navbar-side .navbar-second-side {
-    position: fixed;
+    background-color: var(--primary);
     height: 100vh;
+    left: -100%;
+    position: fixed;
     top: 0px;
-    width: 100%;
 
     transition: all 0.5s ease-in-out;
-    left: -100%;
-    background-color: var(--primary);
+    width: 100%;
   }
   .header .navbar-side .navbar-second-side.show {
     left: 0;
@@ -168,44 +167,44 @@
     justify-content: space-between;
   }
   .navbar-side .navbar-second-side input {
-    width: 12.25rem;
     height: 1.975rem;
+    width: 12.25rem;
   }
   .navbar-side .navbar-second-side input::placeholder {
     font-size: 0.675rem;
   }
 
   .navbar-second-side .subscribeButton {
-    width: 4.813rem;
-    height: 2.15rem;
     font-size: 0.675rem;
+    height: 2.15rem;
+    width: 4.813rem;
   }
   .navbar-second-side .links {
     margin-right: 0;
   }
   .navbar-side .logo {
-    width: 9.88rem;
     height: 3.875rem;
+    width: 9.88rem;
   }
   .navbar-second-side .links a {
-    margin: 13px;
     font-size: 0.7375rem;
+    margin: 0.8125rem;
   }
   .imageTextContent .imageContent {
     height: 34rem;
   }
 
   .imageTextContent .textContent h1 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 1.875rem;
+    line-height: 1.875rem;
   }
   .imageTextContent .textContent h4 {
-    font-size: 12.5px;
+    font-size: 0.75rem;
   }
   .imageTextContent .textContent .firstPart-button {
-    margin-top: 10px;
-    width: 10.75rem;
-    height: 2.663rem;
     font-size: 0.875rem;
+    height: 2.663rem;
+    margin-top: 0.625rem;
+    width: 10.75rem;
   }
 }

@@ -5,9 +5,9 @@
   position: relative;
   width: 100%;
 }
-.header-wrapper{
-  max-width: 1400px;
+.header-wrapper {
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 .front-bg {
@@ -173,8 +173,8 @@
   outline: none;
   width: 7.813rem;
 }
-.subscribeButton:focus{
-  background-color:var( --primaryButton-color);
+.subscribeButton:focus {
+  background-color: var(--primaryButton-color);
   color: var(--light-textBackground-color);
 }
 .subscribeButton:hover {
@@ -292,9 +292,9 @@
   text-align: center;
   width: 14.75rem;
 }
-.firstPart-button:focus{
-  background-color:var(--blueButton-color);
-  color:var(--light-textBackground-color) ;
+.firstPart-button:focus {
+  background-color: var(--blueButton-color);
+  color: var(--light-textBackground-color);
 }
 .firstPart-button:hover {
   background-color: var(--blueTone);

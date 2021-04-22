@@ -15,24 +15,24 @@
   margin: 6.25rem 0;
   margin-bottom: 4.375rem;
 }
-.card1{
+.card1 {
   opacity: 0;
   transform: translateY(100px);
   transition: all 1s ease-in-out;
 }
-.card2{
+.card2 {
   opacity: 0;
   transform: translateY(100px);
   transition: all 1.6s ease-in-out;
 }
-.card3{
+.card3 {
   opacity: 0;
   transform: translateY(100px);
   transition: all 2.1s ease-in-out;
 }
 .card1.visible,
 .card2.visible,
-.card3.visible{
+.card3.visible {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -42,7 +42,7 @@
   transform: translateY(-100px);
   transition: all 1s ease-in-out;
 }
-.pricing-content.visible{
+.pricing-content.visible {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -129,9 +129,9 @@
   align-items: center;
   -webkit-box-align: center;
   -webkit-box-pack: center;
-  -webkit-box-shadow: var( --secondary-shadow-tone) 0px 1px 2px 0px,
+  -webkit-box-shadow: var(--secondary-shadow-tone) 0px 1px 2px 0px,
     var(--primary-shadow-tone) 0px 2px 6px 2px;
-  box-shadow: var( --secondary-shadow-tone) 0px 1px 2px 0px,
+  box-shadow: var(--secondary-shadow-tone) 0px 1px 2px 0px,
     var(--primary-shadow-tone) 0px 2px 6px 2px;
   display: -webkit-box;
   display: -ms-flexbox;

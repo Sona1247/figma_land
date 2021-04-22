@@ -116,7 +116,7 @@
 }
 .action-side input {
   background: var(--input-background);
-  border: 1px solid var( --border-white-tone);
+  border: 1px solid var(--border-white-tone);
   border-radius: 39px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -188,9 +188,9 @@
   outline: none;
   width: 22.06rem;
 }
-.action-side button:focus{
-  background-color:var(--primaryButton-color);
-  color: var( --light-textBackground-color);
+.action-side button:focus {
+  background-color: var(--primaryButton-color);
+  color: var(--light-textBackground-color);
 }
 .action-side button:hover {
   background-color: var(--light-textBackground-color);
@@ -254,9 +254,9 @@
   -ms-transform: translateY(0px);
   transform: translateY(0px);
 }
-.fifth-part button:focus{
-  background-color:var( --blueButton-color);
-  color: var( --light-textBackground-color);
+.fifth-part button:focus {
+  background-color: var(--blueButton-color);
+  color: var(--light-textBackground-color);
 }
 .fifth-part button:hover {
   background-color: var(--light-textBackground-color);
@@ -332,7 +332,7 @@
   -ms-grid-rows: 1fr 3.25rem 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  margin-top:5.625rem;
+  margin-top: 5.625rem;
   opacity: 0;
   row-gap: 3.25rem;
   -webkit-transform: translateY(100px);

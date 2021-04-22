@@ -1,51 +1,51 @@
 @media only screen and (max-width: 500px) {
-   .fourth-part .action-side input{
+  .fourth-part .action-side input {
     height: 2.775rem;
     width: 16.06rem;
-   }
-   .fourth-part .action-side input::placeholder{
+  }
+  .fourth-part .action-side input::placeholder {
     font-size: 0.775rem;
-   }
+  }
 
-   .fourth-part .action-side button{
+  .fourth-part .action-side button {
+    font-size: 0.975rem;
     height: 2.725rem;
     width: 16.06rem;
-    font-size: 0.975rem;
-   }
-   .fourth-part .content-side h3{
-       font-size: 1rem;
-   }
-   .fourth-part .content-side .content-side-mobileText {
-       font-size: 36px;
-   }
-   .fourth-part .action-side h3{
-       font-size: 1.125rem;
-   }
-   .fourth-part .action-side p{
-       font-size: 1rem;
-   }
-   .fifth-part .partners h2 {
+  }
+  .fourth-part .content-side h3 {
+    font-size: 1rem;
+  }
+  .fourth-part .content-side .content-side-mobileText {
+    font-size: 2.25rem;
+  }
+  .fourth-part .action-side h3 {
+    font-size: 1.125rem;
+  }
+  .fourth-part .action-side p {
+    font-size: 1rem;
+  }
+  .fifth-part .partners h2 {
     font-size: 2.175rem;
     line-height: 3.163rem;
   }
   .fifth-part .partners h4 {
-      line-height:1rem;
-      font-size: 0.875rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
   }
   .container .fifth-part button {
-    width: 12.85rem;
-    height: 3.875rem;
     font-size: 1.175rem;
+    height: 3.875rem;
     margin: 3rem 0;
+    width: 12.85rem;
   }
 
   .fifth-part .client div img {
-    width: 6.685rem;
     height: 6.188rem;
+    width: 6.685rem;
   }
   .fifth-part .client div pre {
     font-size: 0.995rem;
-    padding-bottom: 25px;
+    padding-bottom: 1.563rem;
   }
 }
 
@@ -54,15 +54,15 @@
     display: none;
   }
   .content-side .content-side-mobileText {
+    color: var(--light-textBackground-color);
     display: block;
     font-family: "Roboto", sans-serif;
+    font-size: 2.875rem;
     font-style: normal;
     font-weight: normal;
-    font-size: 46px;
-    line-height: 57px;
-    text-align: center;
     letter-spacing: 0.2px;
-    color: #ffffff;
+    line-height: 3.563rem;
+    text-align: center;
   }
   body .container .fifth-part .client {
     grid-template-columns: 1fr;
@@ -81,4 +81,3 @@
     grid-template-rows: repeat(2, 1fr);
   }
 }
-

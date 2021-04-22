@@ -1,21 +1,21 @@
-:root{
-    --primary:#EF2779;
-    --primaryButton-color:#d81159;
-    --secondary:#7834BE;
-    --blueTone:#38A3F1;
-    --dark-textBackground-color:#252B42;
-    --secondary-shadow-tone:rgba(60, 64, 67, 0.3);
-    --primary-shadow-tone:rgba(60, 64, 67, 0.15);
-    --dark-background-color:#374754;
-    --dark-blueTone:#18171d;
-    --background-white-tone:#f5f5f5;
-    --secondary-border-tone:#dedede;
-    --border-white-tone:#e8e8e8;
-    --input-background:#f4f4f4;
-    --second-text-color:#374754;
-    --light-textBackground-color:#FFFFFF;
-    --blueButton-color:#0077b6;
-    --black:black;
-    --shadow-tone:rgba(0, 0, 0, 0.07);
-    --white-tone:#dddddd;
+:root {
+  --primary: #ef2779;
+  --primaryButton-color: #d81159;
+  --secondary: #7834be;
+  --blueTone: #38a3f1;
+  --dark-textBackground-color: #252b42;
+  --secondary-shadow-tone: rgba(60, 64, 67, 0.3);
+  --primary-shadow-tone: rgba(60, 64, 67, 0.15);
+  --dark-background-color: #374754;
+  --dark-blueTone: #18171d;
+  --background-white-tone: #f5f5f5;
+  --secondary-border-tone: #dedede;
+  --border-white-tone: #e8e8e8;
+  --input-background: #f4f4f4;
+  --second-text-color: #374754;
+  --light-textBackground-color: #ffffff;
+  --blueButton-color: #0077b6;
+  --black: black;
+  --shadow-tone: rgba(0, 0, 0, 0.07);
+  --white-tone: #dddddd;
 }

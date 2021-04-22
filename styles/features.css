@@ -255,9 +255,9 @@
   transition: all 1s ease-in-out;
   width: 14.75rem;
 }
-.thirdPart-button:focus{
-  background-color:var(--blueButton-color);
-  color: var( --light-textBackground-color);
+.thirdPart-button:focus {
+  background-color: var(--blueButton-color);
+  color: var(--light-textBackground-color);
 }
 .thirdPart-button.visible {
   opacity: 1;
