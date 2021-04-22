@@ -178,24 +178,18 @@
   outline: none;
   width: 22.06rem;
 }
-.action-side button:focus {
-  background-color: var(--primaryButton-color);
-  color: var(--light-textBackground-color);
-}
+
 .action-side button:hover {
   background-color: var(--light-textBackground-color);
   border: 1px solid var(--primary);
   color: var(--primary);
 }
 .action-side button:active {
-  background-color: var(--primary);
+  background-color: var(--primaryButton-color);
+  color: var(--light-textBackground-color);
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: var(--light-textBackground-color);
   outline: var(--light-textBackground-color);
-  -webkit-transform: translateY(0.4375rem);
-  -ms-transform: translateY(0.4375rem);
-  transform: translateY(0.4375rem);
 }
 .fifth-part {
  
@@ -233,24 +227,19 @@
   -ms-transform: translateY(0px);
   transform: translateY(0px);
 }
-.fifth-part button:focus {
-  background-color: var(--blueButton-color);
-  color: var(--light-textBackground-color);
-}
+
 .fifth-part button:hover {
   background-color: var(--light-textBackground-color);
   border: 1px solid var(--blueTone);
   color: var(--blueTone);
 }
 .fifth-part button:active {
-  background-color: var(--blueTone);
   -webkit-box-shadow: none;
-  box-shadow: none;
+  background-color: var(--blueButton-color);
   color: var(--light-textBackground-color);
+  box-shadow: none;
   outline: var(--light-textBackground-color);
-  -webkit-transform: translateY(0.4375rem);
-  -ms-transform: translateY(0.4375rem);
-  transform: translateY(0.4375rem);
+
 }
 .fifth-part .partners {
   -webkit-box-direction: normal;

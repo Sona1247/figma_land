@@ -188,6 +188,9 @@ form.visible {
 .eighth-part-icons img {
   padding-right: 1.5rem;
 }
+.eighth-part-icons a{
+  cursor: pointer;
+}
 .form-wrapper input {
   background: var(--background-white-tone);
   border: 1px solid var(--border-white-tone);
@@ -196,7 +199,7 @@ form.visible {
   box-sizing: border-box;
   margin: 0.9375rem 0;
   outline: none;
-  padding: 0.5625rem 0;
+  padding: 0.5625rem 13px;
   width: 100%;
 }
 
@@ -211,7 +214,7 @@ form.visible {
   letter-spacing: 0.06px;
   line-height: 0.625rem;
   outline: none;
-  padding: 0 0.9375rem;
+  padding: 15px 0.9375rem 0 0.9375rem;
   resize: none;
   width: 100%;
 }
@@ -223,7 +226,7 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-  padding-top: 0.9375rem;
+
 }
 .form-wrapper textarea::-moz-placeholder {
   color: var(--dark-blueTone);
@@ -233,7 +236,7 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-  padding-top: 0.9375rem;
+ 
 }
 .form-wrapper textarea:-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -243,7 +246,7 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-  padding-top: 0.9375rem;
+  
 }
 .form-wrapper textarea::-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -253,7 +256,7 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-  padding-top: 0.9375rem;
+
 }
 .form-wrapper textarea::placeholder {
   color: var(--dark-blueTone);
@@ -263,7 +266,7 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-  padding-top: 0.9375rem;
+
 }
 .form-wrapper input::-webkit-input-placeholder {
   color: var(--dark-blueTone);
@@ -272,7 +275,7 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  padding-left: 0.875rem;
+  
 }
 .form-wrapper input::-moz-placeholder {
   color: var(--dark-blueTone);
@@ -281,7 +284,7 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  padding-left: 0.875rem;
+  
 }
 .form-wrapper input:-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -290,7 +293,7 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  padding-left: 0.875rem;
+  
 }
 .form-wrapper input::-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -299,7 +302,7 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  padding-left: 0.875rem;
+ 
 }
 .form-wrapper input::placeholder {
   color: var(--dark-blueTone);
@@ -308,7 +311,7 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  padding-left: 0.875rem;
+  
 }
 .form-wrapper button {
   background: var(--primary);
@@ -358,6 +361,9 @@ form.visible {
 .pages-content.visible {
   opacity: 1;
   transform: translateY(0px);
+}
+.pages-content a{
+  cursor: pointer;
 }
 .pages-content h3 {
   color: var(--dark-textBackground-color);

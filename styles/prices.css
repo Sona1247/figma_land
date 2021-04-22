@@ -131,6 +131,7 @@
   height: 17.19rem;
   justify-content: center;
   width: 20.94rem;
+  border: none;
 }
 .little-price-card:not(:nth-child(1)) {
   margin-left: 50px;
@@ -182,7 +183,10 @@
   letter-spacing: 0.1px;
   line-height: 1.125rem;
 }
-
+.little-price-card:hover{
+  border: none;
+  outline: none;
+}
 .little-price-card button {
   background: var(--blueTone);
   border: none;

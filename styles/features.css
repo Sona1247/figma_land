@@ -5,19 +5,7 @@
   width: 100%;
 }
 .second-part-wrapper {
-  align-items: center;
-  -webkit-box-align: center;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-pack: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: center;
-  justify-content: center;
+ 
   width: 100%;
 }
 .header-side {
@@ -244,10 +232,7 @@
   transition: all 1s ease-in-out;
   width: 14.75rem;
 }
-.thirdPart-button:focus {
-  background-color: var(--blueButton-color);
-  color: var(--light-textBackground-color);
-}
+
 .thirdPart-button.visible {
   opacity: 1;
   -webkit-transform: translateX(0px);
@@ -261,12 +246,9 @@
   color: var(--blueTone);
 }
 .thirdPart-button:active {
-  background-color: var(--blueTone);
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: var(--light-textBackground-color);
   outline: var(--light-textBackground-color);
-  -webkit-transform: translateY(7px);
-  -ms-transform: translateY(7px);
-  transform: translateY(7px);
+  background-color: var(--blueButton-color);
+  color: var(--light-textBackground-color);
 }

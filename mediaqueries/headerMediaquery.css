@@ -161,6 +161,21 @@
   .header .navbar-side .navbar-second-side.show {
     left: 0;
   }
+  .header .navbar-side .navbar-second-side input,
+  .header .navbar-side .navbar-second-side button{
+display: none;
+  }
+  .header .navbar-side .navbar-second-side.close {
+    display: none;
+  }
+  .header .navbar-side .navbar-second-side .navbar-close {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
 }
 @media only screen and (max-width: 1300px) {
   .navbar-side {
@@ -208,17 +223,11 @@
     width: 10.75rem;
   }
 }
-@media only screen and (min-width: 1800px){
-  .container .header .front-bg{
+@media only screen and (min-width: 1800px) {
+  .container .header .front-bg {
     top: -420%;
   }
-  .container .header .back-bg{
+  .container .header .back-bg {
     top: -310%;
-  }
-  .header .textContent h1{
-    color: black;
-  }
-  .header .textContent h4{
-    color: black;
   }
 }

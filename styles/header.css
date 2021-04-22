@@ -31,7 +31,14 @@
   width: 100%;
 
 }
-
+.navbar-close{
+  width: 60px;height: 40px;
+  background:transparent;
+  color: white;
+  border: none;outline: none;
+  font-size: 25px;
+  display: none;
+  }
 .navbar-side {
   align-items: center;
   -webkit-box-align: center;
@@ -90,7 +97,8 @@
   text-decoration: none;
 }
 .links a:hover {
-  background-color: var(--primary);
+text-decoration: underline;
+color: var(--blueTone) ;
 }
 .navbar-second-side input {
   border: none;
@@ -98,22 +106,9 @@
   height: 3.375rem;
   outline: none;
   width: 18.75rem;
+  padding-left: 35px;
 }
-.navbar-second-side input::-webkit-input-placeholder {
-  padding-left: 2.438rem;
-}
-.navbar-second-side input::-moz-placeholder {
-  padding-left: 2.438rem;
-}
-.navbar-second-side input:-ms-input-placeholder {
-  padding-left: 2.438rem;
-}
-.navbar-second-side input::-ms-input-placeholder {
-  padding-left: 2.438rem;
-}
-.navbar-second-side input::placeholder {
-  padding-left: 2.438rem;
-}
+
 .navbar-second-side input::-webkit-input-placeholder {
   color: var(--dark-blueTone);
   font-family: "Roboto", sans-serif;
@@ -172,23 +167,17 @@
   outline: none;
   width: 7.813rem;
 }
-.subscribeButton:focus {
-  background-color: var(--primaryButton-color);
-  color: var(--light-textBackground-color);
-}
+
 .subscribeButton:hover {
   background-color: var(--primary);
   color: var(--light-textBackground-color);
 }
 .subscribeButton:active {
-  background-color: var(--light-textBackground-color);
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: var(--primary);
   outline: var(--primary);
-  -webkit-transform: translateY(0.4375rem);
-  -ms-transform: translateY(0.4375rem);
-  transform: translateY(0.4375rem);
+  background-color: var(--primaryButton-color);
+  color: var(--light-textBackground-color);
 }
 .logo {
   height: 4.875rem;
@@ -292,21 +281,15 @@
   text-align: center;
   width: 14.75rem;
 }
-.firstPart-button:focus {
-  background-color: var(--blueButton-color);
-  color: var(--light-textBackground-color);
-}
+
 .firstPart-button:hover {
   background-color: var(--blueTone);
   color: var(--light-textBackground-color);
 }
 .firstPart-button:active {
-  background-color: var(--light-textBackground-color);
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: var(--blueTone);
   outline: var(--blueTone);
-  -webkit-transform: translateY(7px);
-  -ms-transform: translateY(7px);
-  transform: translateY(7px);
+  background-color: var(--blueButton-color);
+  color: var(--light-textBackground-color);
 }
