@@ -1,14 +1,11 @@
 .eighth-part {
-  align-items: center;
+ 
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: var(--dark-textBackground-color);
   -webkit-box-align: center;
   -webkit-box-pack: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+ 
   padding: 4rem 0;
 }
 .eighth-part-wrapper {
@@ -332,15 +329,6 @@ form.visible {
   padding: 0.75rem 2.188rem;
 }
 .last-part {
-  align-items: center;
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   width: 100%;
 }
 .last-part-wrapper {
@@ -354,7 +342,8 @@ form.visible {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 7.5rem 0;
-  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 .pages-content {
   -webkit-box-direction: normal;
