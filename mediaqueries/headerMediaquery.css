@@ -208,3 +208,11 @@
     width: 10.75rem;
   }
 }
+@media only screen and (min-width: 1800px){
+  .container .header .front-bg{
+    top: -450%;
+  }
+  .container .header .back-bg{
+    top: -350%;
+  }
+}

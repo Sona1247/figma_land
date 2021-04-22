@@ -13,7 +13,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 2;
+
 }
 .front-bg-mobile,
 .back-bg-mobile {
@@ -26,7 +26,7 @@
   position: absolute;
   top: 80px;
   width: 100%;
-  z-index: 1;
+
 }
 
 .navbar-side {

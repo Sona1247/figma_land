@@ -63,6 +63,7 @@ const options  = {
     });
   };
 
+  
   const observer = new IntersectionObserver(handleIntersection, options);
 
   observer.observe(headerImg);

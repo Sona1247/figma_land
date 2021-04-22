@@ -1,7 +1,5 @@
 .fourth-part {
- max-width: 1400px;
-  align-items: center;
-  margin: 0 auto;
+ width: 100%;
   background: -o-linear-gradient(
     50.03deg,
     var(--primary) 0.79%,
@@ -219,22 +217,22 @@
   letter-spacing: 0.1px;
   line-height: 2.063rem;
   margin: 5rem 0;
-  /* opacity: 0; */
+  opacity: 0;
   outline: none;
-  /* -webkit-transform: translateY(100px);
+  -webkit-transform: translateY(100px);
   -ms-transform: translateY(100px);
-  transform: translateY(100px); */
+  transform: translateY(100px);
   -webkit-transition: all 1.5s ease-in-out;
   -o-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
   width: 14.75rem;
 }
-/* .fifth-part button.visible {
+.fifth-part button.visible {
   opacity: 1;
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
-} */
+}
 .fifth-part button:focus {
   background-color: var(--blueButton-color);
   color: var(--light-textBackground-color);

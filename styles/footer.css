@@ -1,7 +1,5 @@
 .eighth-part {
- 
-  max-width: 1400px;
-  margin: 0 auto;
+
   background-color: var(--dark-textBackground-color);
   -webkit-box-align: center;
   -webkit-box-pack: center;
