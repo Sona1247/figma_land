@@ -225,9 +225,9 @@ display: none;
 }
 @media only screen and (min-width: 1800px) {
   .container .header .front-bg {
-    top: -420%;
+    top: -230%;
   }
   .container .header .back-bg {
-    top: -310%;
+    top: -159%;
   }
 }
