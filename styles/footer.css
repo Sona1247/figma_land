@@ -1,9 +1,8 @@
 .eighth-part {
-
   background-color: var(--dark-textBackground-color);
   -webkit-box-align: center;
   -webkit-box-pack: center;
- 
+
   padding: 4rem 0;
 }
 .eighth-part-wrapper {
@@ -188,7 +187,7 @@ form.visible {
 .eighth-part-icons img {
   padding-right: 1.5rem;
 }
-.eighth-part-icons a{
+.eighth-part-icons a {
   cursor: pointer;
 }
 .form-wrapper input {
@@ -199,7 +198,7 @@ form.visible {
   box-sizing: border-box;
   margin: 0.9375rem 0;
   outline: none;
-  padding: 0.5625rem 13px;
+  padding: 0.5625rem 0.8125rem;
   width: 100%;
 }
 
@@ -214,7 +213,7 @@ form.visible {
   letter-spacing: 0.06px;
   line-height: 0.625rem;
   outline: none;
-  padding: 15px 0.9375rem 0 0.9375rem;
+  padding: 0.9375rem 0.9375rem 0 0.9375rem;
   resize: none;
   width: 100%;
 }
@@ -226,7 +225,6 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-
 }
 .form-wrapper textarea::-moz-placeholder {
   color: var(--dark-blueTone);
@@ -236,7 +234,6 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
- 
 }
 .form-wrapper textarea:-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -246,7 +243,6 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-  
 }
 .form-wrapper textarea::-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -256,7 +252,6 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-
 }
 .form-wrapper textarea::placeholder {
   color: var(--dark-blueTone);
@@ -266,7 +261,6 @@ form.visible {
   font-weight: normal;
   letter-spacing: 0.06px;
   line-height: 0.625rem;
-
 }
 .form-wrapper input::-webkit-input-placeholder {
   color: var(--dark-blueTone);
@@ -275,7 +269,6 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  
 }
 .form-wrapper input::-moz-placeholder {
   color: var(--dark-blueTone);
@@ -284,7 +277,6 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  
 }
 .form-wrapper input:-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -293,7 +285,6 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  
 }
 .form-wrapper input::-ms-input-placeholder {
   color: var(--dark-blueTone);
@@ -302,7 +293,6 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
- 
 }
 .form-wrapper input::placeholder {
   color: var(--dark-blueTone);
@@ -311,7 +301,6 @@ form.visible {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.065371px;
-  
 }
 .form-wrapper button {
   background: var(--primary);
@@ -329,6 +318,18 @@ form.visible {
   outline: none;
   padding: 0.75rem 2.188rem;
 }
+.form-wrapper button:hover{
+  background: var(--light-textBackground-color);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.form-wrapper button:active{
+  background-color: var(--primaryButton-color);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: var(--light-textBackground-color);
+  outline: var(--light-textBackground-color);
+}
 .last-part {
   width: 100%;
 }
@@ -342,9 +343,9 @@ form.visible {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 7.5rem 0;
   margin: 0 auto;
   max-width: 1400px;
+  padding: 7.5rem 0;
 }
 .pages-content {
   -webkit-box-direction: normal;
@@ -362,7 +363,7 @@ form.visible {
   opacity: 1;
   transform: translateY(0px);
 }
-.pages-content a{
+.pages-content a {
   cursor: pointer;
 }
 .pages-content h3 {
@@ -391,8 +392,8 @@ form.visible {
   text-decoration: underline;
 }
 
-.footerIcon .notification h5 {
-  color: var(--black) !important;
+.footerIcon .miniIcon .notification h5 {
+  color: var(--black);
 }
 .footerIcon {
   opacity: 0;

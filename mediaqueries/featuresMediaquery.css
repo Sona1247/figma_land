@@ -48,8 +48,8 @@
     justify-content: center;
     margin-top: 3.125rem;
   }
-  .features .advice-side .mobileLogoPicture {
-    display: block !important;
+ .container .features .advice-side .mobileLogoPicture {
+    display: block;
   }
   .advice-side .desktopLogoPicture {
     display: none;
@@ -99,12 +99,12 @@
     align-items: center;
     display: flex;
   }
-  .contaier .features{
+  .contaier .features {
     margin-top: 52.25rem;
   }
 }
 @media only screen and (min-width: 1800px) {
-  .container .features{
+  .container .features {
     margin-top: 74.25rem;
   }
 }

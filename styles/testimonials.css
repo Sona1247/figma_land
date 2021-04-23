@@ -121,9 +121,9 @@
 }
 
 .testimonials-button:active {
+  background-color: var(--blueButton-color);
   -webkit-box-shadow: none;
   box-shadow: none;
-  outline: var(--light-textBackground-color);
-  background-color: var(--blueButton-color);
   color: var(--light-textBackground-color);
+  outline: var(--light-textBackground-color);
 }

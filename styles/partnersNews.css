@@ -1,5 +1,4 @@
 .fourth-part {
- width: 100%;
   background: -o-linear-gradient(
     50.03deg,
     var(--primary) 0.79%,
@@ -10,10 +9,11 @@
     var(--primary) 0.79%,
     var(--secondary) 79.29%
   );
- 
- padding: 70px 0;
 
   margin-top: 5rem;
+
+  padding: 4.375rem 0;
+  width: 100%;
 }
 .content-side,
 .action-side {
@@ -174,7 +174,7 @@
   height: 3.125rem;
   letter-spacing: 0.2px;
   line-height: 1rem;
-  margin: 0 0 12px 0;
+  margin: 0 0 0.75rem 0;
   outline: none;
   width: 22.06rem;
 }
@@ -186,16 +186,16 @@
 }
 .action-side button:active {
   background-color: var(--primaryButton-color);
-  color: var(--light-textBackground-color);
   -webkit-box-shadow: none;
   box-shadow: none;
+  color: var(--light-textBackground-color);
   outline: var(--light-textBackground-color);
 }
 .fifth-part {
- 
-  width: 100%;
   height: 100%;
   margin-top: 5.438rem;
+
+  width: 100%;
 }
 .fifth-part button {
   background: var(--blueTone);
@@ -234,12 +234,11 @@
   color: var(--blueTone);
 }
 .fifth-part button:active {
-  -webkit-box-shadow: none;
   background-color: var(--blueButton-color);
-  color: var(--light-textBackground-color);
+  -webkit-box-shadow: none;
   box-shadow: none;
+  color: var(--light-textBackground-color);
   outline: var(--light-textBackground-color);
-
 }
 .fifth-part .partners {
   -webkit-box-direction: normal;
